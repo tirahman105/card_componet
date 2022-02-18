@@ -4,6 +4,7 @@
 
 body{
 	background-color: hsl(233, 47%, 7%);
+	font-family: 'Lexend Deca', sans-serif;
 }
 
 .card-componet{
@@ -12,6 +13,8 @@ body{
   align-items: center;
   justify-content: center;
 	margin-top: 80px;
+	margin-left: auto;
+	margin-right: auto;
 	width: 80%;
 
 
@@ -19,7 +22,7 @@ body{
 .left-side{
 	background-color: hsl(244, 38%, 16%);
 	color: white;
-	padding: 60px;
+	padding: 50px;
 	text-align: left;
 
 }
@@ -30,7 +33,10 @@ body{
     font-size: 2.25rem;
     letter-spacing: 1px;
 }
+.left-side .top h1 span{
+	color: hsl(277, 64%, 61%);
 }
+
  .card-text{
 	color: hsla(0, 0%, 100%, 0.75);
 	line-height: 1.8;
@@ -39,12 +45,13 @@ body{
 }
 .bottom{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
-	margin: 30px;
+	margin: 35px;
+	
 }
 .bottom-info{
-	text-align: center;
+	text-align: left;
 }
 .bottom-info h3{
 	margin: 0 0 5px;
@@ -52,7 +59,7 @@ body{
 .bottom-info p{
 	    font-family: Lexend Deca;
 	    font-weight: 400;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
 }
