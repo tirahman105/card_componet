@@ -71,5 +71,36 @@ body{
 	position: fixed;
 	right: 133px;
 }
+.right-side img{
+	object-fit: cover;
+}
+
+/* responsive design */
 
 
+@media only screen and (max-width: 600px) {
+	.card-component {
+	  
+	  flex-direction: column-reverse;
+	 align-items: center;
+	  margin-bottom: 100px;
+	 
+  
+	}
+	.bottom{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	
+		
+	}
+	.bottom-info{
+		text-align: center;
+		margin-top: 10px;
+	}
+	.card-text{
+		text-align: center;
+	}
+	
+  }
+  
