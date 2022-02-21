@@ -7,7 +7,7 @@ body{
 	font-family: 'Lexend Deca', sans-serif;
 }
 
-.card-componet{
+.card-component{
 	
 	display: flex;
   align-items: center;
@@ -71,3 +71,5 @@ body{
 	position: fixed;
 	right: 133px;
 }
+
+
